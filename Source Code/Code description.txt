@@ -1,0 +1,22 @@
+The source code is diveided into 3 files 
+1-the Grad_Proj python script which accepts data from the board and do operations on it and send position to GUI to be drawn.
+this script consists of one class contain its attributes and functions.
+At the end of it the main functions calls like connect,calibrate,setup,start and then start the superloop which runs forever to accept all data samples until want to stop it by pressing "e" for 2 seconds.
+
+
+2-the testGUI is the proccessing code which descripe the gui and the operations do on it.
+the main functions calls like: -setup(call once at start)
+                               -Draw(call forever).the following functions are called inside it:
+                                         -grid_3d
+                                         -display_coordinates
+                                         -pointer
+			                 -Save_fun.the following function is called inside it:
+						object_count
+			       -oscEvent
+
+3-The gui file contain the handlers for the buttons
+
+
+
+
+
